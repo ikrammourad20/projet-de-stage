@@ -1,0 +1,56 @@
+footer {
+  background: linear-gradient(135deg, #1a1a1a, #333); /* Dégradé sombre stylé */
+  color: #ccc; /* Couleur claire mais pas trop blanche */
+  padding: 15px 0; /* Moins d’espace vertical */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 0.9em;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.3); /* Ombre subtile en haut */
+  text-align: center;
+}
+
+.footer-text {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 600px;
+  line-height: 1.4;
+}
+
+.footer-text p {
+  margin: 0;
+}
+
+.footer-text i {
+  margin-right: 8px;
+  color: #ffcc00; /* Petite touche de couleur dorée pour les icônes */
+}
+
+footer nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+footer ul {
+  display: inline-block;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+footer a {
+  color: #ffcc00; /* Même couleur dorée pour les liens */
+  font-size: 1.2em;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+.container-footer {
+  padding-left: 20px;
+  padding-right: 20px;
+}
